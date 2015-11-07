@@ -1,0 +1,16 @@
+name = pph
+description = A Kalatheme subtheme powered by Twitter Bootstrap & Science.
+base theme = kalatheme
+core = 7.x
+
+regions[content] = Content
+
+stylesheets[all][] = css/main.css
+
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+settings[default_logo] = 0
+settings[logo_path] = sites/all/themes/pph/img/logo_small.png
+
+settings[bootstrap_library] = united
+
