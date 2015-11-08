@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the PPH - Profile feature.
+ */
+
+include_once 'pph_profile.features.inc';
