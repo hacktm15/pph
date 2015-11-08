@@ -1,3 +1,12 @@
-/*! 
- * Kalatheme (http://drupal.org/project/kalatheme) 
- */ 
+/*!
+ * PPH Theme
+ */
+
+.specialties {
+  margin-left: -2px;
+  margin-right:-2px;
+}
+
+.specialties .label {
+  margin: 2px;
+}
