@@ -1,7 +1,7 @@
 name = PPH - Profile
 description = Profile and user settings for Photographile
 core = 7.x
-package = Features
+package = Photographile
 version = 7.x-1.0-beta1
 dependencies[] = dragndrop_upload_image
 dependencies[] = ds
