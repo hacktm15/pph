@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * PPH Layouts module file
+ */
+
+
+/**
+ * Implements hook_ds_layout_info()
+ */
+function pph_layouts_ds_layout_info() {
+  $path = drupal_get_path('module', 'pph_layouts') . '/layouts';
+
+  $layouts = array();
+
+  // Bootstrap panel basic
+  $layouts['pph_bootstrap'] = array(
+    'label' => t('PPH - Bootstrap Panel'),
+    'path' => $path . '/pph_bootstrap_panel',
+    'regions' => array(
+      'heading' => t('Heading'),
+      'body' => t('Body'),
+      'footer' => t('Footer'),
+    ),
+    'form' => TRUE,
+    'image' => FALSE,
+  );
+
+  return $layouts;
+}

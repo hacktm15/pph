@@ -1,0 +1,5 @@
+name = PPH Layouts
+description = Custom implementation of layouts for the Photographile website
+package = "PPH"
+core = 7.x
+dependencies[] = ds
